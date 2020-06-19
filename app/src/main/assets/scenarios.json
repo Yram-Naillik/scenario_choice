@@ -1,0 +1,19 @@
+{
+  "scenarios": [
+    {
+      "title": "Les aventures de Rose à Poitiers",
+      "picture" : "http://www.edamam.com/web-img/5f5/5f51c89f832d50da84e3c05bef3f66f9.jpg",
+      "description": "lorem ipsum"
+    },
+    {
+      "title": "Les aventures de Rose à La Rochelle",
+      "picture" : "http://www.edamam.com/web-img/5f5/5f51c89f832d50da84e3c05bef3f66f9.jpg",
+      "description": "lorem ipsum"
+    },
+    {
+      "title": "Les aventures de Rose à Angouleme",
+      "picture" : "http://www.edamam.com/web-img/5f5/5f51c89f832d50da84e3c05bef3f66f9.jpg",
+      "description": "lorem ipsum"
+    }
+  ]
+}
