@@ -2,18 +2,21 @@
   "scenarios": [
     {
       "title": "Les aventures de Rose à Poitiers",
-      "picture" : "http://www.edamam.com/web-img/5f5/5f51c89f832d50da84e3c05bef3f66f9.jpg",
-      "description": "lorem ipsum"
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent tristique id purus nec aliquam. In varius lacus at quam sagittis ullamcorper. Ut fringilla magna nulla, eget vulputate dui maximus sed. Nunc quis vulputate justo, quis rhoncus leo. Quisque pretium tortor eget bibendum posuere. Cras porta aliquam risus. Quisque fringilla lectus elementum urna sodales, sollicitudin convallis ante varius. Vivamus gravida porttitor dolor eget dignissim. Ut luctus tellus sed mauris commodo consequat. Vivamus ligula nunc, finibus eu neque non, egestas aliquet enim. Morbi pretium justo eu est tincidunt rhoncus. In convallis consequat nisi at lobortis. Donec accumsan tincidunt odio et molestie. Praesent in ligula mi. Vivamus iaculis odio in ligula pharetra semper.",
+      "picture" : "R.drawable.vase"
+
     },
     {
       "title": "Les aventures de Rose à La Rochelle",
-      "picture" : "http://www.edamam.com/web-img/5f5/5f51c89f832d50da84e3c05bef3f66f9.jpg",
-      "description": "lorem ipsum"
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent tristique id purus nec aliquam. In varius lacus at quam sagittis ullamcorper. Ut fringilla magna nulla, eget vulputate dui maximus sed. Nunc quis vulputate justo, quis rhoncus leo. Quisque pretium tortor eget bibendum posuere. Cras porta aliquam risus. Quisque fringilla lectus elementum urna sodales, sollicitudin convallis ante varius. Vivamus gravida porttitor dolor eget dignissim. Ut luctus tellus sed mauris commodo consequat. Vivamus ligula nunc, finibus eu neque non, egestas aliquet enim. Morbi pretium justo eu est tincidunt rhoncus. In convallis consequat nisi at lobortis. Donec accumsan tincidunt odio et molestie. Praesent in ligula mi. Vivamus iaculis odio in ligula pharetra semper.",
+      "picture" : "R.drawable.vase"
+
     },
     {
       "title": "Les aventures de Rose à Angouleme",
-      "picture" : "http://www.edamam.com/web-img/5f5/5f51c89f832d50da84e3c05bef3f66f9.jpg",
-      "description": "lorem ipsum"
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent tristique id purus nec aliquam. In varius lacus at quam sagittis ullamcorper. Ut fringilla magna nulla, eget vulputate dui maximus sed. Nunc quis vulputate justo, quis rhoncus leo. Quisque pretium tortor eget bibendum posuere. Cras porta aliquam risus. Quisque fringilla lectus elementum urna sodales, sollicitudin convallis ante varius. Vivamus gravida porttitor dolor eget dignissim. Ut luctus tellus sed mauris commodo consequat. Vivamus ligula nunc, finibus eu neque non, egestas aliquet enim. Morbi pretium justo eu est tincidunt rhoncus. In convallis consequat nisi at lobortis. Donec accumsan tincidunt odio et molestie. Praesent in ligula mi. Vivamus iaculis odio in ligula pharetra semper.",
+      "picture" : "R.drawable.vase"
+
     }
   ]
 }

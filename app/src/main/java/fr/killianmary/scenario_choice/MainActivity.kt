@@ -16,9 +16,11 @@ class MainActivity : AppCompatActivity() {
         var listView = findViewById<ListView>(R.id.scenario_list_view)
 // 1
         val scenarioList = Scenario.getScenarioFromFile("scenarios.json", this)
+        val adapter = ScenarioAdapter(this, scenarioList)
+        listView.adapter = adapter
+
 // 2
         // OK up
-        Log.e("SCENARIO LIST SIZE", scenarioList.size.toString())
         val listItems = arrayOfNulls<String>(scenarioList.size)
 // 3
         for (i in 0..scenarioList.size-1) {
@@ -27,7 +29,6 @@ class MainActivity : AppCompatActivity() {
             listItems[i] = scenario.title.toString()
         }
 // 4
-        val adapter = ArrayAdapter(this, android.R.layout.simple_list_item_1, listItems)
-        listView.adapter = adapter
+
     }
 }

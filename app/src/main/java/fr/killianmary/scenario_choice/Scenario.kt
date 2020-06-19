@@ -8,7 +8,7 @@ import org.json.JSONObject
 class Scenario(
     val title: String?,
     val description: String,
-    val imageUrl: String) {
+    val picture: String) {
 
     companion object {
 
@@ -22,9 +22,10 @@ class Scenario(
                 val scenarios = json.getJSONArray("scenarios")
                 // Get Scenario objects from data
                 (0 until scenarios.length()).mapTo(scenarioList) {
-                    Scenario(scenarios.getJSONObject(it).getString("title"),
-                        scenarios.getJSONObject(it).getString("picture"),
-                        scenarios.getJSONObject(it).getString("description"))
+                    Scenario(
+                        scenarios.getJSONObject(it).getString("title"),
+                        scenarios.getJSONObject(it).getString("description"),
+                        scenarios.getJSONObject(it).getString("picture"))
                 }
             } catch (e: JSONException) {
                 e.printStackTrace()
